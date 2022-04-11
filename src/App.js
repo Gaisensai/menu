@@ -16,10 +16,7 @@ const filterItemhandler = (category)=>{
     setMeals(items);
     return;
   };
-
-
-
-  const newItem = items.filter(item=>item.category === category);
+    const newItem = items.filter(item=>item.category === category);
     setMeals(newItem);
     
 };
